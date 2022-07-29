@@ -18,6 +18,7 @@ bazelisk build xxx --config=android_arm64
 
 1. rknn_common_test  
 TODO
+![](d:\3568\github\rknn_common_test_mp.png)
 
 2. palm_detection_rknn  
 TODO
