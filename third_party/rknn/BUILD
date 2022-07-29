@@ -1,8 +1,11 @@
 
 package(default_visibility = ["//visibility:public"])
 
-cc_import(
-    name="rknnrtlib",
-    hdrs=["include/rknn_api.h"],
-    shared_library="librknnrt.so",
+
+cc_library(
+	name = "rknnrt_lib",
+	srcs = ["librknnrt.so"],
+	hdrs = ["include/rknn_api.h"],
+	strip_include_prefix = "include",
+	alwayslink = 1,
 )
