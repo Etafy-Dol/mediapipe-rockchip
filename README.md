@@ -17,10 +17,13 @@ bazelisk build xxx --config=android_arm64
 ## Examples
 
 1. rknn_common_test  
-TODO
+
 ![](mediapipe/examples/data/rknn_common_test_mp.png)
+TODO
 
 2. palm_detection_rknn  
+
+![](mediapipe/examples/data/palm_detection.png)
 TODO
 
 ## Contact Us
